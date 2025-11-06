@@ -104,6 +104,7 @@ Retrieve published events
 
 ### Complete Data Flow Diagram
 
+```
 [ User (Frontend) ]
         |
         v
@@ -130,6 +131,8 @@ POST /event (Express API)
         |
         v
 [ Other clients (Damus, Amethyst, Primal app) receive instantly ]
+
+```
 
 ## Project Structure
 
