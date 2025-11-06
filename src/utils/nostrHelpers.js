@@ -1,5 +1,4 @@
 const { getPublicKey } = require('nostr-tools');
-const crypto = require('crypto').webcrypto || require('crypto');
 
 let privateKey;
 let publicKey;
