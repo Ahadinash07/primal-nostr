@@ -131,7 +131,6 @@ POST /event (Express API)
         |
         v
 [ Other clients (Damus, Amethyst, Primal app) receive instantly ]
-
 ```
 
 ## Project Structure
