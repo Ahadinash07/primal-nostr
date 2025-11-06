@@ -102,6 +102,35 @@ Retrieve published events
 ]
 ```
 
+### Complete Data Flow Diagram
+
+[ User (Frontend) ]
+        |
+        v
+POST /event (Express API)
+        |
+        v
+[ createTextNote() ]
+   - Add pubkey, timestamp, content
+        |
+        v
+[ Sign with Private Key ]
+   - getEventHash()
+   - getSignature()
+        |
+        v
+[ Save to MongoDB (Post Model) ]
+        |
+        v
+[ Publish via SimplePool ]
+   - Send to multiple Nostr relays (WebSocket)
+        |
+        v
+[ Relays broadcast event across Nostr Network ]
+        |
+        v
+[ Other clients (Damus, Amethyst, Primal app) receive instantly ]
+
 ## Project Structure
 
 ```
