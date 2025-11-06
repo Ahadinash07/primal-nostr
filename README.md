@@ -118,20 +118,6 @@ backend/
 └── README.md            # This file
 ```
 
-### Linting
-```bash
-npm run lint
-# or
-yarn lint
-```
-
-### Production Build
-```bash
-npm run build
-# or
-yarn build
-```
-
 ## Acknowledgments
 
 - [Nostr Protocol](https://github.com/nostr-protocol/nostr)
