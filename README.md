@@ -33,7 +33,7 @@ A robust backend service for publishing and managing Nostr events. This service 
 
 3. Set up environment variables
    ```bash
-   # Edit .env with your configuration
+   # Create .env file or edit .env with your configuration
    ```
 
 4. Start the development server
